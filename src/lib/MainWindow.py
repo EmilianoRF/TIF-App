@@ -5,6 +5,9 @@ from .mplwidget import MplWidget
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
+        MainWindow.setStyleSheet("background-color: white;")
+        MainWindow.setMinimumSize(QtCore.QSize(1574, 810))
+        MainWindow.setMaximumSize(QtCore.QSize(1574, 810))
         MainWindow.resize(1574, 810)
         MainWindow.setToolButtonStyle(QtCore.Qt.ToolButtonFollowStyle)
         MainWindow.setTabShape(QtWidgets.QTabWidget.Rounded)
