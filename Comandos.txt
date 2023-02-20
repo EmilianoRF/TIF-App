@@ -1,0 +1,13 @@
+
+# Comando para convertir el .ui en .py 
+# En este caso siempre va a ser de la forma
+	pyuic5 -o nombre_destino nombre_origen 
+	
+# En nuestro caso
+	pyuic5 -o ..\lib\MainWindow MainWindow.ui
+
+# Comando para generar la lista de dependencias de la app
+pip freeze > requerimientos.txt
+
+# Comando para instalar las dependencias en el archivo generado
+pip install -r requerimientos.txt
