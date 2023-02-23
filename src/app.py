@@ -17,6 +17,5 @@ ui.setupUi(widget_mainwindow)
 # Se muestra la ventana
 widget_mainwindow.show()
 
-# Se ejecuta la app
 sys.exit(app.exec_())
 
