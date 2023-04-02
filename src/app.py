@@ -3,7 +3,7 @@ import sys
 sys.path.append('lib')
 from lib import MainWindow
 
-# Se crea la aplicacion que contiene el main loop
+
 app = MainWindow.QtWidgets.QApplication(sys.argv)
 
 # Se crea el widget de la ventana principal
